@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph_area"
+    app:startDestination="@id/area_fragment">
+
+    <include app:graph="@navigation/nav_graph_vegetation" />
+
+    <fragment
+        android:id="@+id/area_fragment"
+        android:name="com.taipeizoodemo.area.AreaFragment"
+        android:label="fragment_area"
+        tools:layout="@layout/fragment_area" >
+        <action
+            android:id="@+id/action_area_to_vegetation"
+            app:destination="@+id/nav_graph_vegetation" />
+    </fragment>
+</navigation>

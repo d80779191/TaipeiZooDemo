@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">TaipeiZooDemo</string>
+
+    <string name="main_title">台北市立動物園</string>
+    <string name="dialog_confirm_title">提示</string>
+    <string name="dialog_confirm_left">確定退出？</string>
+    <string name="dialog_failed_title">失敗</string>
+    <string name="dialog_failed_area_hint">取得館區資料發生錯誤</string>
+    <string name="dialog_failed_vegetation_hint">取得植物資料發生錯誤</string>
+    <string name="dialog_cancel">取消</string>
+    <string name="dialog_confirm">確認</string>
+    <string name="area_vegetation_title">植物資料</string>
+    <string name="area_link">在網頁開啟</string>
+    <string name="vegetation_content">%1$s\n\n%2$s\n\n%3$s</string>
+</resources>
